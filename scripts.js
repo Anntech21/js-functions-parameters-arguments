@@ -32,6 +32,8 @@ function goToTheCoffeeShop(drink) {
 // Modify the function so that the function takes in two parameters, a drink and a pastry. Call the function with two arguments.
 
 
+
+
 /***********************  Exercise 4  ************************/
 // Let’s create a function to calculate the area of a circle.
 // Here is the code for calculating the area of a circle
@@ -44,12 +46,12 @@ let area = Math.PI * radius * radis
 
 /***********************  Exercise 5  ************************/
 
-function addNumbers[num1, num2] {
-    let result = num1 + num2;
-    console.log(result);
-  }
+// function addNumbers[num1, num2] {
+//     let result = num1 + num2;
+//     console.log(result);
+//   }
 
-// Call the above function.
+// Remove the comments from the function above. Call the above function.
 
 // What errors do you see in the console?
 
@@ -73,19 +75,24 @@ function addNumbers[num1, num2] {
 
 /***********************  Exercise 7  ************************/
 
-// Define a function called multiplyFive which accepts a number and returns that number multiplied by 5.
+// Declare a function called multiplyFive which accepts a number and returns that number multiplied by 5.
+
+
+
+
+
 
 // Call the function 3 times with different inputs.
 
 
 
 /***********************  Exercise 8  ************************/
-// Create a function that will take in an array as an argument and log the third item in the array to the console. 
+// Declare a function that will take in an array as an argument and log the third item in the array to the console. 
 
 
 
 /***********************  Exercise 9  ************************/
-// Create a function that will take in the following object and alert the following, "Welcome, [FULLNAME]. Your email address is [EMAILADDRESS]"
+// Declare a function that will take in the following object and alert the following, "Welcome, [FULLNAME]. Your email address is [EMAILADDRESS]"
 
 let userObject = {
     name: {
