@@ -64,14 +64,17 @@ let area = Math.PI * radius * radis
 // Output: 4
 
 
+/***************************  BONUS  *********************************/
+
+
 /***********************  Exercise 6  ************************/
 
   function showMessage(from, text) { 
     // Add the code to the code block that will create the following outputs.
   }
   
-  showMessage('Ann', 'Hello!'); // Ann: Hello! (*)
-  showMessage('Ann', "What's up?"); // Ann: What's up? (**)
+  showMessage('Ann', 'Hello!'); // Ann: Hello!
+  showMessage('Ann', "What's up?"); // Ann: What's up?
 
 /***********************  Exercise 7  ************************/
 
@@ -108,16 +111,14 @@ let userObject = {
 
 /***********************  Exercise 10  ************************/
 
-function sortArray(numbers) {
-    let max = numbers.sort();
-    console.log(max);
+function sortArray(string) {
+    let alpha = string.sort();
+    console.log(alpha);
   }
   
-const numbersArray = [10, 3, 8, 21, 5];
-const maxNumber = findMaxValue(numbersArray);
+const stringArray = ["shirt", "dress", "pants", "overalls", "hat"];
+const alphaArray = sortArray(stringArray);
 
 
 // Describe what the above code is doing?
-
-// Add code to the above function that will log the smallest number and the largest number to the console in the sentence, "____ is the smallest number, and ____ is the largest number in this dataset. "
   
