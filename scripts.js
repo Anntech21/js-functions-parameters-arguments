@@ -15,11 +15,10 @@ function greetMessage(name) {
     console.log("Hello, " + name + "!");
 }
   
-// Create a variable called message that is assigned the value of calling the function 'greetingMessage'. Pass in a value to the function.
+// Create a variable called userName and assigned it any string value. Pass in that variable as the argument when calling the function.
 
 // What do you see in the console?
 
-  
 
 /***********************  Exercise 3  ************************/
 
@@ -35,12 +34,24 @@ function goToTheCoffeeShop(drink) {
 
 
 /***********************  Exercise 4  ************************/
+
 // Let’s create a function to calculate the area of a circle.
-// Here is the code for calculating the area of a circle
-let area = Math.PI * radius * radis
-// How many variables will we need?
-// How many parameters?
-// Call the function for a circle with the radius of 15.
+
+// Here is the code for calculating the area of a circle:
+let area = Math.PI * radius * radius;
+// put the above code into your function (don't leave it outside the function!)
+
+// How many variables will we need, if any, to write our function?
+
+// How many parameters, if any?
+
+// Now write the function.
+
+
+
+// Call the function for a circle with the radius of 15. You should get a value of 706 and a lot of digits after the decimal point.
+
+
 
 
 
