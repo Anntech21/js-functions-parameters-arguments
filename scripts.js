@@ -165,7 +165,7 @@ let userObject = {
   emailAddress: "ann@gmail.com",
 }
 
-Alert ("Welcome," ${userObject.name} + "." ${userObject.emailAddress});
+alert (`Welcome, ${userObject.name}. Your registered email is ${userObject.emailAddress}.`);
 /***********************  Exercise 10  ************************/
 
 function sortArray(string) {
@@ -176,4 +176,10 @@ function sortArray(string) {
 const stringArray = ["shirt", "dress", "pants", "overalls", "hat"];
 const alphaArray = sortArray(stringArray);
 
+
 // Describe what the above code is doing?
+The sort() method sorts an array alphabetically. 
+log statement is trying to log the returned value of alpha,'string.sort()' function, 
+
+
+
