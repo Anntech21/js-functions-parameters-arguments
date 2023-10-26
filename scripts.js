@@ -5,8 +5,8 @@ function greet(name) {
 }
 
 let user1 = "Grace";
-let user1 = "Joel";
-let user1 = "Marcus";
+let user2 = "Joel";
+let user3 = "Marcus";
 
 greet(user1);
 greet(user2);
@@ -32,21 +32,33 @@ greetMessage(userName);
 /***********************  Exercise 3  ************************/
 
 function goToTheCoffeeShop(drink) {
-  let drinkOrdered = "latte";
   alert(`A ${drink} is on the way!`);
+  console.log(`A ${drink} is on the way!`);
 }
+drink = "Latte";
+goToTheCoffeeShop(drink);
 
-function goToTheCoffeeShop(pastry) {
-  let pastryOrdered = "bun";
+
+function goToTheCoffeeShop1(pastry) {
   alert(`A ${pastry} is on the way!`);
+  console.log(`A ${pastry}1 is on the way!`);
 }
+pastry = "Bun"
+goToTheCoffeeShop1(pastry);
 
-goToTheCoffeeShop(drinkOrdered, pastryOrdered);
 
 // Call this function so that the alert reads "A latte is on the way!"
-goToTheCoffeeShop(drinkOrdered);
+//goToTheCoffeeShop("drink");
+
 // Modify the function so that the function takes in two parameters, a drink and a pastry. Call the function with two arguments.
-goToTheCoffeeShop(drinkOrdered, pastryOrdered);
+function cava(drink,pastry) {
+  alert(`A ${drink} and a ${pastry} is on the way!`);
+  console.log(`A ${drink} and a ${pastry} is on the way!`);
+}
+
+drink = "Coffee";
+pastry = "Muffin";
+cava(drink, pastry);
 
 
 /***********************  Exercise 4  ************************/
@@ -84,10 +96,20 @@ circle(radius);
 //     console.log(result);
 //   }
 
-function addNumbers(result) {
-  result = num1 + num2;
+
+function addNumbers(num1, num2) {
+  let result = num1 + num2;
   console.log(result);
 }
+
+num1 = 10;
+num2 = 5;
+addNumbers(num1, num2);
+
+//addNumbers(17, 17);
+//addNumbers(17, 17);
+//addNumbers(10, 10);
+//addNumbers(3, 1);
 
 // Remove the comments from the function above. Call the above function.
 
@@ -101,17 +123,6 @@ function addNumbers(result) {
 // Output: 34
 // Output: 20
 // Output: 4
-
-let num1 = 10;
-let num2 = 5;
-
-//++ let num1 = 15;
-//++ let num2 = 19;
-
-let num1 = 2;
-let num2 = num1;
-
-addNumbers();
 
 /***************************  BONUS PRACTICE  *********************************/
 
