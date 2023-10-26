@@ -35,8 +35,8 @@ function goToTheCoffeeShop(drink) {
   alert(`A ${drink} is on the way!`);
   console.log(`A ${drink} is on the way!`);
 }
-drink = "Latte";
-goToTheCoffeeShop(drink);
+let coffeeDrink = "Coffee";
+goToTheCoffeeShop(coffeeDrink);
 
 
 function goToTheCoffeeShop1(pastry) {
